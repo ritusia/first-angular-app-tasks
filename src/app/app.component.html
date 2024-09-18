@@ -9,12 +9,10 @@
   </ul>
 
   @if (selectedUser) {
-    <app-tasks (addTaskClick)="onNewTask()" [userId]="selectedUser.id" [name]="selectedUser.name"/>
+    <app-tasks [userId]="selectedUser.id" [name]="selectedUser.name"/>
   } @else {
     <p>Select a user to see their tasks!</p>
   }
 
-  @if (showNewTask) {
-    <app-new-task/>
-  }
+
 </main>
