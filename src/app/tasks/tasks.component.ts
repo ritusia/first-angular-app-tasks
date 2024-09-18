@@ -18,7 +18,7 @@ export class TasksComponent {
     {
       id: 't1',
       userId: 'u1',
-      title: 'Master Angular',
+      title: 'Master Angular 2',
       summary:
         'Learn all the basic and advanced features of Angular & how to apply them.',
       dueDate: '2025-12-31',
